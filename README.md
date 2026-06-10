@@ -86,6 +86,20 @@ ssh -p 10022 cuong.nguyen@107.98.150.183
 ssh -p 10022 yen.pt1@107.98.150.183
 ```
 
+Alternatively, Use your own computer:
+
+```bash
+docker run -it --rm ghcr.io/canh25xp/dotfiles-debian:latest
+```
+
+Or if you're using WSL:
+
+```pwsh
+curl.exe -LO https://github.com/canh25xp/dotfiles/releases/download/v0.1.0/dotfiles-debian.tar.gz
+wsl.exe --import Debian C:\WSL\Debian dotfiles-debian.tar.gz --version 2
+wsl.exe -d Debian
+```
+
 ## References
 
 - [the art of command line](https://github.com/jlevy/the-art-of-command-line)
