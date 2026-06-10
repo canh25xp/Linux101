@@ -97,8 +97,8 @@ docker run -it --rm ghcr.io/canh25xp/dotfiles-debian:v1.2.0
 Or if you're using WSL:
 
 ```pwsh
-curl.exe -LO http://107.98.150.183:6969/Archive/WSL/dotfile-debian.tar.gz
-wsl.exe --import Debian C:\WSL\Debian dotfiles-debian.tar.gz --version 2
+curl.exe -LO http://107.98.150.183:6969/Archive/WSL/dotfiles-debian.tar.gz
+wsl.exe --import Debian C:\Debian dotfiles-debian.tar.gz --version 2
 wsl.exe -d Debian
 ```
 
