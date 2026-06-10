@@ -10,11 +10,7 @@ Rather than focusing on graphical interfaces, we will primarily work in a **head
 
 Throughout the course, you will connect to a Linux machine using `ssh`.
 The environment is preconfigured with all required tools to ensure everyone has a consistent learning experience.
-Alternatively, you may use the provided Docker image:
-
-```bash
-ghcr.io/canh25xp/dotfiles-debian
-```
+Alternatively, you may use the provided Docker image [here](http://ghcr.io/canh25xp/dotfiles-debian)
 
 By the end of this course, you should be comfortable navigating the Linux terminal, managing files and directories, working with remote systems, and using common command-line tools in your daily workflow.
 
@@ -95,7 +91,7 @@ ssh -p 10022 yen.pt1@107.98.150.183
 Alternatively, Use your own computer:
 
 ```bash
-docker run -it --rm ghcr.io/canh25xp/dotfiles-debian:latest
+docker run -it --rm ghcr.io/canh25xp/dotfiles-debian:v1.2.0
 ```
 
 Or if you're using WSL:
@@ -109,7 +105,7 @@ wsl.exe -d Debian
 > [!NOTE]
 > if download from server `http://107.98.150.183:6969` is not working, use this instead:
 >
-> `curl.exe -LO https://github.com/canh25xp/dotfiles/releases/download/v0.1.0/dotfiles-debian.tar.gz`
+> `curl.exe -LO https://github.com/canh25xp/dotfiles/releases/download/v1.2.0/dotfiles-debian.tar.gz`
 
 ## References
 
