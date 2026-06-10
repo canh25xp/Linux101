@@ -1,5 +1,8 @@
 # Linux 101
 
+> [!IMPORTANT]
+> Work in progress
+
 ## Introduction
 
 This course provides a practical introduction to Linux through hands-on exercises and real-world workflows.
