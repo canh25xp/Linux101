@@ -48,6 +48,44 @@ After this course, you should be able to comfortably navigating in your terminal
 
 TODO
 
+### Setup
+
+To learn Linux, you must first get your self into one.
+
+The easiest way is using `ssh`.
+
+```bash
+ssh -p <port> <username>@<ip>
+```
+
+Host: 107.98.150.183
+Port: 10022
+
+| Username     | Password    |
+| ------------ | ----------- |
+| cuong.nguyen | cuongnguyen |
+| cuong.nm4    | cuongnm4    |
+| doan.ng      | doanng      |
+| duc.cuong    | duccuong    |
+| giang.ngo    | giangngo    |
+| haphong.ng   | haphongng   |
+| khanh.pd     | khanhpd     |
+| manhdung.ng  | manhdungng  |
+| minhhoa.tr   | minhhoatr   |
+| oanh.tt      | oanhtt      |
+| tien.oanh    | tienoanh    |
+| vancanh.ng   | vancanhng   |
+| vu.pd        | vupd        |
+| vuong.chinh  | vuongchinh  |
+| yen.pt1      | yenpt1      |
+
+For example:
+
+```bash
+ssh -p 10022 cuong.nguyen@107.98.150.183
+ssh -p 10022 yen.pt1@107.98.150.183
+```
+
 ## References
 
 - [the art of command line](https://github.com/jlevy/the-art-of-command-line)
