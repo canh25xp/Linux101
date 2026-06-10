@@ -1,5 +1,26 @@
 # Linux 101
 
+## Introduction
+
+In this course, we'll be cover ...
+
+This course will mostly be focusing on "headless" environment, that is, without the graphical user interface.
+
+For practices, you will be interacting with a Linux machine via `ssh`.
+The machine is setup with all required tools to ensure everyone has the same learning environment.
+Alternatively, you can use my `docker` image at `ghcr.io/canh25xp/dotfiles-debian`.
+
+After this course, you should be able to comfortably navigating in your terminal.
+
+## Prerequisite
+
+- A keyboard
+- A mouse (optional)
+- A working computer with `ssh` client installed;
+  ```
+  ssh -V
+  ```
+
 ## Table of Contents
 
 - Introduction to linux
