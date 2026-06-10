@@ -32,8 +32,8 @@ After this course, you should be able to comfortably navigating in your terminal
   - Linux Filesystem Hierarchy Standard (FHS)
     - Everything is a file.
   - Bash basic
-- Advance tools:
-  - `ssh`: The door to a whole new world
+- Productivity tools:
+  - `ssh`: working with remote systems.
   - Everything, everywhere, all at `git`
     - `git` tips and tricks.
     - `git` good and bad practices.
