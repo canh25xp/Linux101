@@ -2,15 +2,18 @@
 
 ## Introduction
 
-In this course, we'll be cover ...
+This course provides a practical introduction to Linux through hands-on exercises and real-world workflows.
+Rather than focusing on graphical interfaces, we will primarily work in a **headless** environment—that is, interacting with Linux entirely through the command line.
 
-This course will mostly be focusing on "headless" environment, that is, without the graphical user interface.
+Throughout the course, you will connect to a Linux machine using `ssh`.
+The environment is preconfigured with all required tools to ensure everyone has a consistent learning experience.
+Alternatively, you may use the provided Docker image:
 
-For practices, you will be interacting with a Linux machine via `ssh`.
-The machine is setup with all required tools to ensure everyone has the same learning environment.
-Alternatively, you can use my `docker` image at `ghcr.io/canh25xp/dotfiles-debian`.
+```bash
+ghcr.io/canh25xp/dotfiles-debian
+```
 
-After this course, you should be able to comfortably navigating in your terminal.
+By the end of this course, you should be comfortable navigating the Linux terminal, managing files and directories, working with remote systems, and using common command-line tools in your daily workflow.
 
 ## Prerequisite
 
