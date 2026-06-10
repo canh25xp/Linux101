@@ -91,7 +91,7 @@ ssh -p 10022 yen.pt1@107.98.150.183
 Alternatively, Use your own computer:
 
 ```bash
-docker run -it --rm ghcr.io/canh25xp/dotfiles-debian:v1.2.0
+docker run -it --rm ghcr.io/canh25xp/dotfiles-debian:latest
 ```
 
 Or if you're using WSL:
@@ -105,7 +105,7 @@ wsl.exe -d Debian
 > [!NOTE]
 > if download from server `http://107.98.150.183:6969` is not working, use this instead:
 >
-> `curl.exe -LO https://github.com/canh25xp/dotfiles/releases/download/v1.2.0/dotfiles-debian.tar.gz`
+> `curl -LO https://github.com/canh25xp/dotfiles/releases/latest/download/dotfiles-debian.tar.gz`
 
 ## References
 
