@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.4.0"
+  },
+  "marp": {
+    "theme": "./dracula/dracula/dracula.css",
+    "allowLocalFiles": true,
+    "html": true
+  }
+}
