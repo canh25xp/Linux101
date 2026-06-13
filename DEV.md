@@ -8,21 +8,20 @@ cd Linux101
 ## Convert slide
 
 ```bash
-cd linux101
 npm install # Run once
-npx marp slide.md
-xdg-open slide.html
+npx marp linux101/main.md
+xdg-open linux101/main.html
 ```
 
 ## Watch and Preview
 
 ```bash
-npx marp slide.md --preview --watch
+npx marp linux101/main.md --preview --watch
 ```
 
 ## Server mode
 
 ```bash
-npx marp --server .
-xdg-open http://localhost:8080/slide.md
+npx marp --server linux101
+xdg-open http://localhost:8080/main.md
 ```
