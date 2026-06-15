@@ -37,6 +37,7 @@ By the end of this course, you should be comfortable navigating the Linux termin
   - [Multitasking with `tmux`](/chapters/tmux.md)
   - [Android development with `termux` and `adb`](./chapters/android.md)
   - [Containerize with `podman` (`docker` alternative)](/chapters/docker.md)
+- [Windows Subsystem for Linux](/chapters/wsl.md)
 
 ## Setup
 
