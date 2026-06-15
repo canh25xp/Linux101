@@ -25,25 +25,24 @@ By the end of this course, you should be comfortable navigating the Linux termin
 
 ## Table of Contents
 
-- Introduction to linux
+- [Introduction to linux](/chapters/linux.md)
   - A brief history of Linux
   - Linux distribution (distro)
     - Debian / Ubuntu
 - Linux basic
-  - Basic Linux commands
-  - Linux Filesystem Hierarchy Standard (FHS)
-    - Everything is a file.
-  - Bash basic
+  - [Basic Linux commands](/chapters/basic-commands.md)
+  - [Linux Filesystem Hierarchy Standard (FHS)](/chapters/FHS.md)
+  - [Basic Bash](/chapters/bash.md)
 - Productivity tools:
-  - `ssh`: working with remote systems.
-  - Everything, everywhere, all at `git`
+  - [`ssh`: working with remote systems](/chapters/ssh.md)
+  - [Everything, everywhere, all at `git`](/chapters/git.md)
     - `git` tips and tricks.
     - `git` good and bad practices.
     - Dotfiles management with `chezmoi`
     - Password management with `pass`
-  - From `p4` to `git`
-  - Multitasking with `tmux`
-  - Android development with `termux` and `adb`
+  - [From `p4` to `git`](/chapters/p4.md)
+  - [Multitasking with `tmux`](/chapters/tmux.md)
+  - [Android development with `termux` and `adb`](./chapters/android.md)
   - Containerize with `podman` (`docker` alternative)
 
 ## Chapters
