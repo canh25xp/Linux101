@@ -55,6 +55,18 @@ ssh -p 10022 vancanh.ng@107.98.150.183
    ```
    Now you should not be ask for the server password.
 
+NOTES: On Windows, `ssh-copy-id` is likely not available.
+You can manually copy your public key to the server:
+
+```pwsh
+Get-Content "$HOME\.ssh\id_ed25519.pub" | ssh -p 10022 vancanh.ng@107.98.150.183 "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+```
+
+| Path                     | Mode  | Meaning                                                |
+| ------------------------ | ----- | ------------------------------------------------------ |
+| `~/.ssh`                 | `700` | Only the owner can read, write, or enter the directory |
+| `~/.ssh/authorized_keys` | `600` | Only the owner can read or write the file              |
+
 ### SSH config
 
 1. Edit `~/.ssh/config` file
@@ -74,3 +86,7 @@ ssh -p 10022 vancanh.ng@107.98.150.183
    ```bash
    ssh playground
    ```
+
+## References
+
+- [OpenSSH for Windows](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh-overview)
