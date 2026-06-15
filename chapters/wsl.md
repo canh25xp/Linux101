@@ -60,9 +60,13 @@ wsl -d Debian
 
 ### Install from a `tar` file
 
+Unofficial repo for WSL tar files: [wsl-distro-tars](https://github.com/mvaisakh/wsl-distro-tars)
+
+Although these file does NOT come from official Microsoft repo, they are extracted directly from official Docker Image.
+
 ```pwsh
-curl.exe -LO http://107.98.150.183:6969/Archive/WSL/dotfiles-debian.tar.gz
-wsl.exe --import Debian C:\Debian dotfiles-debian.tar.gz --version 2
+curl.exe -LO https://github.com/mvaisakh/wsl-distro-tars/releases/download/100620260342/debian.unstable-100620260344.tar
+wsl.exe --import Debian C:\Debian debian.unstable-100620260344.tar --version 2
 wsl.exe -d Debian
 ```
 
