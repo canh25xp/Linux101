@@ -2,6 +2,8 @@
 
 ## Useful git config
 
+Edit your git config at `~/.config/git/config` or `~/.gitconfig`
+
 ### Alias
 
 ```gitconfig
