@@ -27,7 +27,7 @@ By the end of this course, you should be comfortable navigating the Linux termin
 
 - [Introduction to linux](/chapters/linux.md)
 - Linux basic
-  - [Basic Linux commands](/chapters/basic-commands.md)
+  - [Basic Linux commands](/chapters/commands.md)
   - [Linux Filesystem Hierarchy Standard (FHS)](/chapters/FHS.md)
   - [Basic Bash](/chapters/bash.md)
 - Productivity tools:
