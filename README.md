@@ -38,11 +38,7 @@ By the end of this course, you should be comfortable navigating the Linux termin
   - [Android development with `termux` and `adb`](./chapters/android.md)
   - [Containerize with `podman` (`docker` alternative)](/chapters/docker.md)
 
-## Chapters
-
-TODO
-
-### Setup
+## Setup
 
 To learn Linux, you must first get your self into one.
 
