@@ -11,3 +11,18 @@ Download link: [p4.tar.gz](http://107.98.150.183:6969/Archive/bin/p4.tar.gz)
 3. Extract it using `tar`
 4. Add **executable** permission
 5. Ensure `~/.local/bin` is added to `PATH` environment
+
+Commands you might need:
+
+- `cd`
+- `ls`
+- `mv`
+- `rm`
+- `pwd`
+- `cat`
+- `tar`
+- `echo`
+- `curl`
+- `exit`
+- `chmod`
+- `source`
