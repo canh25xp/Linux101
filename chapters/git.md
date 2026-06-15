@@ -43,3 +43,24 @@ Edit your git config at `~/.config/git/config` or `~/.gitconfig`
   hiddens = ! git ls-files -v | grep '^[a-z]' | cut -c3-
   edit = !$EDITOR $(git status --porcelain | awk '$1 ~ /^M|A|U/ {print $2}')
 ```
+
+### Use `gh` as your credential provider
+
+```bash
+sudo apt install gh
+gh auth login
+```
+
+```gitconfig
+[credential]
+  helper = store
+
+[credential "https://github.com"]
+  helper =
+  username = canh25xp
+  helper = !gh auth git-credential
+
+[credential "https://gist.github.com"]
+  helper =
+  helper = !gh auth git-credential
+```
