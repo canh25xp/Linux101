@@ -33,6 +33,18 @@
 | Revert changes     | `git restore`, `git revert` | `p4 revert`                   |
 | Tag release        | `git tag`                   | Labels (`p4 label`)           |
 
+## Advantages and Disadvantages
+
+### What `git` can do better
+
+- Partial commits: `git` can commit part of a file or entire file. `p4` is all-or-nothing for each changed file.
+- `git` can work offline. Network is mandatory for `p4`.
+- `git` automatic merging is nicer, conflict only occur if changes happens at the same lines.
+
+### What `p4` can do better
+
+- Checkout a subset of mono-repo is easier with `p4`. `git` does support this feature with **sparse checkout** but very limited.
+
 ## References
 
 - [Git vs. Perforce P4](https://www.perforce.com/blog/vcs/git-vs-perforce-how-choose-and-when-use-both)
