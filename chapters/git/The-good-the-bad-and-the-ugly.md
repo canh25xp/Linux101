@@ -1,4 +1,4 @@
-# `git` Bad practices
+# `git` Good and Bad practices
 
 Bad practices and mistakes to avoid.
 
