@@ -1,4 +1,4 @@
-# 3 way to manipulate git history: `reset`, `revert`, `checkout`
+# 3 ways to manipulate git history: `reset`, `revert`, `checkout`
 
 All of them are **Destructive commands**, meaning you should use them carefully to avoid losing your work.
 
