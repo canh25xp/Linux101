@@ -16,6 +16,7 @@ I will presumed that you know at least these `git` basic commands:
 
 This chapter will provide some common tasks and workflows that you might need to use in your day to day life.
 
+- [Basic concepts](./git/basic-concepts.md): Some basic git concepts.
 - [Basic workflow](./git/basic-workflow.md): The most basic Git Workflow for a Shared Repository.
 - [Reset, Revert, Checkout](./git/reset-revert-checkout.md): 3 ways to manipulate git history
 - [Good and Bad practices](./git/The-good-the-bad-and-the-ugly.md): Some advice for you
